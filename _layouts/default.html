@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Rob Johnson" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Bootstrap -->
+     <link rel="stylesheet" href = "css/bootstrap.css"/>
+     <link  rel="stylesheet"href="css/bootstrap-responsive.css"/>
+     <!--Font Awesome -->
+     <link rel="stylesheet" href="css/font-awesome.css"/>
+    <!--Noto Serif Font -->
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <header>
+    <div class="navbar navbar-static-top">
+      <div class="navbar-inner">
+      <div class="container" style="width: auto; padding 0 20px;">
+          <a class="brand" href="#">Rob Johnson</a>
+            <div class="btn-group">
+              <a class="btn" href="#"><i class="icon-twitter"></i></a>
+              <a class="btn" href="#"><i class="icon-github"></i></a>
+              <a class="btn" href="#"><i class="icon-envelope"></i></a>
+            </div>
+            <ul class="nav pull-right">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Resume</a></li>
+              <li><a href="#">Archive</a></li>
+            </ul>
+        </div>
+      </div>
+      </div>
+    </header>
+    <section>
+      {{ content }}
+    </section>
+  </body>
+</html>
