@@ -45,3 +45,10 @@ desc "Launch preview environment"
 task :preview do
   system "jekyll --auto --server"
 end # task :preview
+
+namespace :assets do
+  desc 'Precompile assets'
+  task :precompile do
+    sh "bundle exec jekyll"
+  end
+end

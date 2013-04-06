@@ -1,3 +1,9 @@
-require "rack/jekyll"
-
-run Rack::Jekyll.new
+require 'rack/contrib/try_static'
+require 'rack/contrib/not_found'
+ 
+use Rack::TryStatic,
+    :root => "_site",
+    :urls => %w[/],
+    :try  => ['index.html', '/index.html']
+ 
+run lambda { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}
