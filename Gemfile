@@ -1,7 +1,6 @@
 source "https://rubygems.org"
-ruby "2.0.0"
 
-gem "rake"
-gem "jekyll"
-gem "RedCloth"
+gem "rake", "0.9"
+gem "jekyll", "0.12"
+gem "RedCloth", "4.2.9"
 gem "rack-contrib"
