@@ -2,3 +2,5 @@ auto: true
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
 rdiscount extensions: [smart]
+
+exclude: [config.ru, Gemfile, Gemfile.lock, LICENSE.txt, Procfile, Rakefile, README.md, vendor]
