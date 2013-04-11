@@ -21,27 +21,35 @@
   <body>
     <header>
     <div class="container">
-    <div class="navbar navbar-static-top">
-      <div class="navbar-inner">
-          <a class="brand" href="index.html">Rob<b>Johnson</b></a>
-          <ul class="nav pull-right">
-            <li><a href="index.html">About</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="archive.html">Archive</a></li>
-          </ul>
-          <div class="nav-collapse collapse">
-          <div class="btn-group">
-            <a class="btn" href="http://twitter.com/rob_johnson_"><i class="icon-twitter"></i></a>
-            <a class="btn" href="http://github.com/Rob-Johnson"><i class="icon-github"></i></a>
-            <a class="btn" href="mailto:rob@rob-johnson.me"><i class="icon-envelope"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+      <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="index.html">Rob<b>Johnson</b></a>
+            <div class="nav nav-collapse"/>
+              <div class="btn-group">
+                <a class="btn" href="http://twitter.com/rob_johnson_"><i class="icon-twitter"></i></a>
+                <a class="btn" href="http://github.com/Rob-Johnson"><i class="icon-github"></i></a>
+                <a class="btn" href="mailto:rob@rob-johnson.me"><i class="icon-envelope"></i></a>
+              </div>
+            </div>
+            <ul class="nav pull-right">
+              <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
+              <li><a href="resume.html"><i class="icon-file-alt"></i>Resume</a></li>
+              <li><a href="archive.html"><i class="icon-book"></i>Archive</a></li>
+            </ul>
+          </div><!-- /.nav-collapse -->
+        </div><!-- /navbar-inner -->
+      </div><!-- /navbar -->
+    </div><!-- /.container -->
     </header>
     <div class="container"> 
       {{ content }}
     </div>
   </body>
 </html>
+
+
