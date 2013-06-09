@@ -4,6 +4,6 @@ require 'rack/contrib/not_found'
 use Rack::TryStatic,
     :root => "_site",
     :urls => %w[/],
-    :try  => ['index.html', '/index.html']
+    :try  => ['index.md', '/index.md']
  
 run lambda { [404, {'Content-Type' => 'text/html'}, ['Not Found']]}
