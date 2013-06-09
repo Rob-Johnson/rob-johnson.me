@@ -1,0 +1,11 @@
+guard 'bundler' do
+  watch('Gemfile')
+end
+
+guard 'less', :all_on_start => true, :all_after_change => true do
+  watch(%r{^.*\.less$})
+end
+
+guard 'jekyll2' do
+  watch /.*/
+end
