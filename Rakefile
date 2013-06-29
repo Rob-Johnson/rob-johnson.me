@@ -54,7 +54,7 @@ namespace :assets do
 end
 
 desc "Curl the site to wake heroku up"
-task :wake_up => :environment do
+task :wake_up do
   puts "Curling rob-johnson.me"
   exec 'curl -Is http://rob-johnson.me'
   puts "Done"
