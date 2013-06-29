@@ -56,6 +56,6 @@ end
 desc "Curl the site to wake heroku up"
 task :wake_up do
   puts "Curling rob-johnson.me"
-  exec 'curl -Is http://rob-johnson.me'
+  exec 'curl -IsL http://rob-johnson.me'
   puts "Done"
 end
