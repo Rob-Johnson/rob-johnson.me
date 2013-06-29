@@ -52,3 +52,10 @@ namespace :assets do
     sh "bundle exec jekyll --no-auto"
   end
 end
+
+desc "Curl the site to wake heroku up"
+task :wake_up => environment do
+  puts "Curling rob-johnson.me"
+  exec 'curl -Is http://rob-johnson.me'
+  puts "Done"
+end
