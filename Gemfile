@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby "1.9.3"
 
 gem "rake"
-gem "jekyll"
+gem "jekyll", "~> 1.0.3"
 gem "RedCloth"
 gem "rack-contrib"
 gem "thin"
