@@ -1,10 +1,13 @@
 ---
 layout: post
+title: A little about me
 ---
+Hey, I'm Rob.
 
-  <p>Hi, I'm <b>Rob</b></p>
-  <p>I'm currently an intern developer at <a href="http://semantico.co.uk">Semantico</a>, and a Computer Science finalist at the <a href="http://sussex.ac.uk">University of Sussex</a> in Brighton, England</p>
-  <p>Feel free to have a look at some of my work on <a href="http://github.com/Rob-Johnson">Github</a>, <a href="mailto:rob@rob-johnson.me">email me</a> or <a href="http://twitter.com/rob_johnson_">follow me on Twitter</a>
-  <p>Enjoy</p>
-</section>
+I'm trying to make it as a Software Developer, currently working as an Intern Developer at [Semantico](http://semantico.com/ "Semantico").
 
+I'm also a finalist at the University of Sussex, studying Computer Science.
+
+I occasionally write here about anything,
+
+Feel free to give me a shout if I you'd like to talk.
