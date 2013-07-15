@@ -8,6 +8,6 @@ I'm trying to make it as a Software Developer, currently working as an Intern De
 
 I'm also a finalist at the University of Sussex, studying Computer Science.
 
-I occasionally write here about anything,
+I plan to occasionally write here about different things: probably just development and how I'm getting on as an Intern trying to make it as a developer.
 
 Feel free to give me a shout if I you'd like to talk.
