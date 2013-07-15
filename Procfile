@@ -1,2 +1,2 @@
-web: jekyll --server $PORT
+web: jekyll serve -w
 guard: bundle exec guard
