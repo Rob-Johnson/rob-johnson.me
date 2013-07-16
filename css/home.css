@@ -1,4 +1,5 @@
 body {
+  background: #F2E9E1;
   padding-top: 50px;
   font-size: 21px;
 }
@@ -7,15 +8,13 @@ a {
   text-decoration: none;
 }
 #content .title {
+  color: #EB2A04;
   font-size: 28px;
-}
-#content .title {
-  text-decoration: underline;
 }
 #about i {
   margin-right: 5px;
 }
-#about .name {
+#about h2 {
   font-size: 28px;
   padding-bottom: 5px;
 }
