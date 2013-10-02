@@ -4,23 +4,5 @@ body {
 }
 a {
   color: #000000;
-  text-decoration: none;
-}
-#content .title {
-  font-size: 28px;
-  text-decoration: underline;
-}
-#about i {
-  margin-right: 5px;
-}
-#about .name {
-  font-size: 28px;
-  padding-bottom: 5px;
-}
-#about img {
-  max-height: 200px;
-  padding-bottom: 10px;
-}
-#about #links {
-  padding-top: 20px;
+  font-style: italic;
 }
