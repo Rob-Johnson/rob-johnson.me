@@ -2,9 +2,16 @@
 layout: default
 ---
 
-<div class="content">
-  <h2 class="title"><em>{{ page.title }}</em></h2>
+<div class = "span3" id="about">
+  <div class="row">
+    <h2>Rob Johnson</h2>
+    {% render pages.md %}
+  </div>
+</div>
+<div class="span6" id="content">
+  <h2 class="title">{{ page.title }}</h2>
   <div id="post">
     {{ content }}
   </div>
+  {% include social-media.html %}
 </div>

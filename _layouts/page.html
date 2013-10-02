@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="span6 offset3">
+  <div class="row" id="content">
+    <div class="span3">
+      <h2>{{ page.title }}</h2>
+    </div>
+  </div>
+    {% render pages.md %}
+    {{ content }}
+    {% include social-media.html %}
+  </div>
+</div>

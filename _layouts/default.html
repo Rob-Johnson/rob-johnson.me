@@ -5,37 +5,25 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="author" content="Rob Johnson" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
     <!--Google Webmaster Tools -->
     <meta name="google-site-verification" content="_nHf9vvc_EKBlDa0fe790EoA88fAh6ysQ3i8mUD-dPc" />
     <!--Bootstrap -->
     <link rel="stylesheet" href="/css/bootstrap.css"/>
     <link rel="stylesheet" href="/css/bootstrap-responsive.css"/>
-    <!--Font Awesome -->
-    <link rel="stylesheet" href="/css/font-awesome.css"/>
+    <!-- Font Awesome CDN -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <!--HomeGrown CSS -->
     <link rel="stylesheet" href="/css/home.css"/>
   </head>
   <body>
     <div class="container">
-      <div class = "span2" id="about">
-        <div class="row">
-          <h2>Rob Johnson</h2>
-          <a href="http://twitter.com/rob_johnson_"><i class="icon-twitter"></i></a>
-          <a href="http://github.com/Rob-Johnson"><i class="icon-github"></i></a>
-        </div>
-        <div class="row" id="links">
-          <p><a href="/index.html">About</a></p>
-          <p><a href="/archive.html">Posts</a></p>
-        </div>
-      </div>
-      <div class="span6 offset1" id="content"/>
         <div class="row">
         {{ content }}
         </div>
-      </div>
     </div>
   </body>
-  <script tye="text/javascript">
+  <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-37447984-1']);
   _gaq.push(['_setDomainName', 'rob-johnson.me']);
