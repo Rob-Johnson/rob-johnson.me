@@ -2,14 +2,10 @@
 layout: default
 ---
 
-<div class="span6 offset3">
-  <div class="row" id="content">
-    <div class="span3">
-      <h2>{{ page.title }}</h2>
-    </div>
-  </div>
-    {% render pages.md %}
+<div class="span9 offset2">
     {{ content }}
-    {% include social-media.html %}
-  </div>
+</div>
+
+<div class="span9 offset2" id="social">
+  {% include social-media.html %}
 </div>
