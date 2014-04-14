@@ -1,1 +1,1 @@
-{% for page in site.pages| sort:"path"%} [{% if page.url-title %} {{ page.url-title }} {% else %} {{ page.title }} {% endif %}]({{ page.url }}){% endfor %}
+{% for page in site.pages| sort:"path"%} [{% if page.url-title %} <em>{{ page.url-title }}</em> {% else %} <em>{{ page.title }}</em> {% endif %}]({{ page.url }}){% endfor %}
