@@ -1,8 +1,23 @@
 body {
+  font-family: 'cmu-classic', serif;
+  font-size: 18px;
+  line-height: 150%;
   padding-top: 50px;
-  font-size: 16px;
+  background: #f8f8f8;
+}
+li {
+  line-height: 150%;
+}
+#social {
+  padding-top: 20px;
 }
 a {
   color: #000000;
   font-style: italic;
+}
+@font-face {
+  font-family: 'cmu-classic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('cmu-classic'), url('http://fs.rob-johnson.me/cmunorm.ttf') format('truetype');
 }
